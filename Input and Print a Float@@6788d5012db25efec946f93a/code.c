@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int newn;
     scanf("f",&newn);
