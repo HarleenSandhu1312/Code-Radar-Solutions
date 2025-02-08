@@ -3,8 +3,8 @@
 int main() {
     char abc;
     scanf("%c",&abc);
-    if(abc>='a' && abc<='z'){
-        if (abc=='a'|| abc=='e'||abc=='i'||abc=='o'||abc=='u'){
+    if(abc>='a' && abc<='z' || abc>='A' && abc<='Z'){
+        if (abc=='a'|| abc=='e'||abc=='i'||abc=='o'||abc=='u'||abc=='A'|| abc=='E'||abc=='I'||abc=='O'||abc=='U'){
             printf("Vowel");
         }
         else{
