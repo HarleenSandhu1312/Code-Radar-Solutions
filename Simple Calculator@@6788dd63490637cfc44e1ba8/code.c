@@ -9,16 +9,16 @@ int main() {
         printf("%d",d);
     }
     else if (c=='-'){
-        d=a-b;
-        printf("%d",d);
+        e=a-b;
+        printf("%d",e);
     }
     else if(c=='*'){
-        d=a*b;
-        printf("%d",d);
+        f=a*b;
+        printf("%d",f);
     }
     else if(c=='/'){
-        d=a/b;
-        printf("%d",d);
+        g=a/b;
+        printf("%d",g);
     }
     return 0;
 }
