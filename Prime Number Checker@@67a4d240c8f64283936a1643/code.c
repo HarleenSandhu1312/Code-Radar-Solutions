@@ -6,7 +6,7 @@ int isPrime(int num){
         }
     }
     switch(num){
-        case true:
+        case num==2:
         printf("1");
     }
     return 0;
