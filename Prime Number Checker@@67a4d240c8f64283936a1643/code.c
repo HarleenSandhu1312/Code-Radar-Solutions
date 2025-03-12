@@ -5,6 +5,9 @@ int isPrime(int num){
             count++;
         }
     }
-
+    switch(num){
+        case true:
+        printf("1");
+    }
     return 0;
 }
