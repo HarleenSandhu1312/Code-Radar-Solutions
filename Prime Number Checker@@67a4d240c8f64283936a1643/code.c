@@ -8,6 +8,7 @@ int isPrime(int num){
     switch(num){
         case num==2:
         printf("1");
+        break;
     }
     return 0;
 }
