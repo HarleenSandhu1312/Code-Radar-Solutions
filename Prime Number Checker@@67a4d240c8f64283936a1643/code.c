@@ -4,9 +4,6 @@ int isPrime(int num){
         if(num%i==0){
             count++;
         }
-        else{
-            continue;
-        }
     }
     if(count==2){
         printf("1");
