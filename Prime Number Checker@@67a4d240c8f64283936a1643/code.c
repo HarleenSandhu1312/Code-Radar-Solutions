@@ -5,8 +5,6 @@ int isPrime(int num){
             count++;
         }
     }
-    if(count==2){
-        printf("1"); 
-    }
+
     return 0;
 }
