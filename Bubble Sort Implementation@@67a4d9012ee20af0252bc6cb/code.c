@@ -6,4 +6,5 @@ int main(){
     for (int i=1;i<=a;i++){
         printf("%d",arr[a]);
     }
+    return 0;
 }
