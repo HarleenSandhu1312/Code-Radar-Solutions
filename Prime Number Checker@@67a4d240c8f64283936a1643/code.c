@@ -1,7 +1,7 @@
 int isPrime(){
     int count=0;
-    for(int i=1;i<=t;i++){
-        if(t%i==0){
+    for(int i=1;i<=num;i++){
+        if(sum%i==0){
             count++;
         }
         else{
@@ -14,5 +14,5 @@ int isPrime(){
     else{
         printf("0");
     }
-    
+
 }
