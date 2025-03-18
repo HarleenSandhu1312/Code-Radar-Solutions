@@ -2,7 +2,7 @@
 int main(){
     int a;
     scanf("%d",&a);
-    for (int i=1;i<=a;i++){
+    for(int i=1;i<=a;i++){
         for(int j=1;j<a;j++){
             if(i+j<=a){
                 printf(" ");
@@ -13,6 +13,26 @@ int main(){
         }
         for(int k=1;k<=i;k++){
             printf("*");
+        }
+        
+        printf("\n");
+    }
+    for(int p=1;p<a;p++){
+        for(int q=a;q>1;q--){
+            if(p+q<=a){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        for(int q=1;q<a;q++){
+            if(p+q<=a){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
         }
         printf("\n");
     }
