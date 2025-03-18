@@ -4,7 +4,12 @@ int main(){
     scanf("%d",&a);
     for(int i=1;i<=a;i++){
         for(int j=i;j>0;j--){
-            printf("*");
+            if(i<j){
+                printf("");
+            }
+            else{
+                printf("*");
+            }
         }
     printf("\n");
     }
