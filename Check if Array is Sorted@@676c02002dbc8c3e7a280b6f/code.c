@@ -6,7 +6,7 @@ int main(){
     for(int i=1;i<=a;i++){
         scanf("%d",arr[i]);
     }
-    if(a==sizeof(arr)){
+    if(a==sizeof(arr)/sizeof(arr[0])){
         printf("Sorted");
     }
     else{
