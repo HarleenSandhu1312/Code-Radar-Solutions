@@ -10,9 +10,12 @@ int main(){
                     printf("%d",b);
                     b++;
                 }
-                else{
+                elseif(i%2==0 && j&2==0){
                     printf("%d",b);
                     b++;
+                }
+                else{
+                    printf(" ");
                 }
             }
         
