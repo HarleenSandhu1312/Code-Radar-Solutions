@@ -6,21 +6,11 @@ int main(){
     for (int i=1;i<=a;i++){
         int b=1;
         for(int j=1;j<=(2*a-1);j++){
-            if(a%2!=0){
                 if(i%2!=0 && j%2!=0){
                     printf("%d",b);
                     b++;
                 }
-                else{
-                    printf(" ");
-                }
-            }
-            else{
-                if(i%2==0 && j%2==0){
-                    printf("%d",b);
-                    b++;
-                }
-                else{
+                elseif(if(i%2==0 && j%2==0)){
                     printf(" ");
                 }
             }
