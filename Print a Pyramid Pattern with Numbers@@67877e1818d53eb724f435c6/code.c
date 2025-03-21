@@ -11,7 +11,8 @@ int main(){
                     b++;
                 }
                 else{
-                    printf(" ");
+                    printf("%d",b);
+                    b++;
                 }
             }
         
