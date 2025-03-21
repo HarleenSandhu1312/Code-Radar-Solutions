@@ -10,7 +10,7 @@ int main(){
                     printf("%d",b);
                     b++;
                 }
-                else(i%2==0 && j%2==0){
+                else{
                     printf(" ");
                 }
             }
