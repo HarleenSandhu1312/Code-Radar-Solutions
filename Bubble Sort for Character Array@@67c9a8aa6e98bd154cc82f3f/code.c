@@ -1,4 +1,4 @@
-void bubbleArray(arr[n],int n){
+void bubbleArray(char arr[n],int n){
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-i-1;j++){
             if(arr[j]<arr[j+1]){
@@ -9,7 +9,7 @@ void bubbleArray(arr[n],int n){
         }
     }
 }
-void printArray(arr[n],int n){
+void printArray(char arr[n],int n){
     for(int i=0;i<n;i++){
         printf("%c ",&arr[i]);
     }
