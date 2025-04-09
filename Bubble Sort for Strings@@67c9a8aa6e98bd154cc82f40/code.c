@@ -1,3 +1,4 @@
+#include<string.h>
 void bubbleSort(char arr[][100],int n);
 void printArray(char arr[][100],int n);
 void bubbleSort(char arr[][100],int n){
