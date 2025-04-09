@@ -1,10 +1,10 @@
 bubbleSort(int arr[],int n){
     for(int i=0;i<n-1;i++){
         for(int j='a';j<='z';j++){
-            if(arr[i][j]>arr[i+1][j]){
-                int temp=arr[i][j];
-                arr[i][j]=arr[i+1][j];
-                arr[i+1][j]=temp;
+            if(arr[i]>arr[i+1]){
+                int temp=arr[i];
+                arr[i]=arr[i+1];
+                arr[i+1]=temp;
             }
         }
     }
