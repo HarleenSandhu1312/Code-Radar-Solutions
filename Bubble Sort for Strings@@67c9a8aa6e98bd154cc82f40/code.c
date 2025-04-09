@@ -1,4 +1,4 @@
-int bubbleSort(char arr[],int n){
+int bubbleSort(char arr[][],int n){
     for(int i=0;i<n-1;i++){
         for(char j='a';j<='z';j++){
             if(arr[i]>arr[i+1]){
@@ -9,7 +9,7 @@ int bubbleSort(char arr[],int n){
         }
     }
 }
-int printArray(char arr[],int n){
+int printArray(char arr[][],int n){
     for(int i=0;i<n;i++){
     printf("%s",arr[n]);
     }
