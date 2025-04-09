@@ -10,6 +10,7 @@ void bubbleSort(char arr[],int n){
     }
 }
 void printArray(char arr[],int n){
+    int n=sizeof(arr)/sizeof(arr[0]);
     for(int i=0;i<n;i++){
         printf("%c ",&arr[i]);
     }
