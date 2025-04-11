@@ -3,12 +3,10 @@ int fibonacciSeries(int n){
         return 0;
     }
     if(n==1){
-        return 1;
+        return 0;
     }
     else{
-        for(int i=0;i<=n;i++){
-            int res=fibonacciSeries(i-1)+fibonacciSeries(i-2);
+            int res=fibonacciSeries(n-1)+fibonacciSeries(n-2);
             printf("%d ",res );
-        }
     }
 }
