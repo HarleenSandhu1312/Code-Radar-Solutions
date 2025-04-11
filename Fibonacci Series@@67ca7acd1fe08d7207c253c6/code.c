@@ -9,6 +9,6 @@ int fibonacciSeries(int n){
 
 for(int i=0;i<n;i++){
 
-printf("%d ",fibonacciSeries[i] );
+printf("%d ",fibonacciSeries(i) );
 }
 }
