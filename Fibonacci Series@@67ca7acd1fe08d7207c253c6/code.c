@@ -6,9 +6,9 @@ int fibonacciSeries(int n){
         return 1;
 }
     else{
-        for(int i=0;i<n;i++){
+        // for(int i=0;i<n;i++){
             int res=fibonacciSeries(n-1)+fibonacciSeries(n-2);
             printf("%d ",res );
-        }
+        // }
     }
 }
